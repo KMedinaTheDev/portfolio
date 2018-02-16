@@ -1,0 +1,139 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+     /* font-family: 'Dosis', sans-serif; */
+}
+
+body{
+  background: url("../images/izcaylomaedit2.jpg"), url("../images/izcaylomaleft.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 920px 160px, 120px 160px;
+  background-color: rgb(221, 236, 237);
+
+}
+
+header{
+  height:170px;
+  width: 100%;
+}
+/*open caret header*/
+header > img{
+  margin:.3% 5% 0 25%;
+}
+h1{
+  float: left;
+  font-family: 'Courgette', cursive;
+  font-size: 4.8em;
+  margin: 1% .5% 1% 0;
+}
+h2{
+  float: left;
+  margin: 5.2% 0 0 -22%;
+  font-size: 2em;
+}
+h3 > a{
+  text-decoration: underline;
+  color: white;
+}
+
+h5{
+  font-size: 1.6em;
+  margin: -2% 0 0 40%;
+  color: white;
+}
+li{
+  list-style: none;
+  line-height: 30px;
+}
+
+/*fwd slash in header*/
+ h2 + img{
+   height:70px;
+   float: left;
+   margin:2% 2% 0 2%;
+ }
+/*close caret in header*/
+ img + img{
+   margin: -7.3% 0 0 70%;
+ }
+ section{
+   float: left;
+   /* margin: 10% 0 0 13%; */
+   font-family: 'Courgette', cursive;
+
+ }
+ .hidden{
+   display: none;
+ }
+ .hidden_result{
+   margin-top: -5%;
+   background: url("../images/clouds.png") no-repeat;
+   background-size: cover;
+   color: black;
+   display: block;
+ }
+ .project{
+   float: left;
+   height:250px;
+   width:27%;
+   margin:4% 3% 0 3%;
+    border-radius: 4px;
+   border: 1px solid white;
+ }
+ .projectContain a{
+   color: white;
+ }
+#aboutMeContain{
+  margin-top: 1%;
+  margin-left: 22%;
+  font-size: 1.4em;
+  width: 20%;
+  /* border: 1px solid white;
+  border-radius: 50%; */
+}
+#aboutMeContain h3{
+  text-decoration: underline;
+}
+#contact{
+  color: white;
+  /* border: 1px solid white;
+  border-radius: 50%; */
+  margin-top: 1%;
+  margin-left: 13.5%;
+  font-size: 1.4em;
+}
+#closes,#opens{
+  height:132px;
+  float: left;
+}
+#projectContain{
+  clear: both;
+  height:300px;
+  width: 50%;
+  margin: 4% 0 0 25%;
+  /* border: 1px solid white; */
+}
+#project1{
+  background: url("../images/lgsnap.png") no-repeat;
+  background-size: cover;
+  background-position: 0 0 0 10px;
+}
+#project2{
+  background: url("../images/bbcsnap.png")  no-repeat;
+  background-size: cover;
+  background-position: 0 5px 0 5px;
+
+}
+#project3{
+  background: url("../images/calcsnap.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#skills{
+  font-size: 1.4em;
+  margin-top: 11%;
+  margin-left: 1%;
+  color: white;
+  text-align: center;
+}
