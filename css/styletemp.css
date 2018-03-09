@@ -1,3 +1,61 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+     /* font-family: 'Dosis', sans-serif; */
+}
+a{
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Courgette', cursive;
+
+}
 body{
   background: url("../images/Binary-Code-Background.jpg");
+  background-repeat: no-repeat;
+}
+
+h1{
+  float: left;
+  font-family: 'Courgette', cursive;
+  font-size: 4.8em;
+  margin: 1% .5% 1% 35%;
+  color: white;
+}
+h2{
+  float: left;
+  font-family: 'Courgette', cursive;
+  margin: 1% 0 0 40%;
+  font-size: 2em;
+  color: white;
+}
+footer,span{
+  float: left;
+  font-size: 3.5em;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  margin-left: 5%;
+}
+span{
+  margin-left: 30%;
+}
+li{
+  list-style: none;
+  line-height: 30px;
+}
+#contact{
+  clear: both;
+  margin-top: 1%;
+  margin-left: 40%;
+  font-size: 1.4em;
+}
+#skills{
+  float: left;
+  font-size: 1.6em;
+  font-weight: bold;
+  font-family: 'Courgette', cursive;
+  margin-top: 5%;
+  margin-left: -20%;
+  color: white;
+  text-align: center;
 }
