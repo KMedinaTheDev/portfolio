@@ -5,7 +5,7 @@
      /* font-family: 'Dosis', sans-serif; */
 }
 a{
-  color: black;
+  color:rgb(218, 120, 17);
   font-size: 1.5em;
   font-family: 'Courgette', cursive;
 
@@ -29,24 +29,36 @@ h2{
   font-size: 2em;
   color: white;
 }
-footer,span{
+footer{
+  margin-top: -5%;
   float: left;
-  font-size: 3.5em;
+}
+footer{
+  float: left;
+  font-size: 2em;
   text-align: center;
   font-family: 'Courgette', cursive;
-  margin-left: 5%;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-left: 3%;
+  color: rgb(218, 120, 17);
 }
 span{
-  margin-left: 30%;
+  font-size: 3em;
+  float: left;
+  color: rgb(218, 120, 17);
+  margin-top: 15%;
+  margin-left: 3%;
+  font-weight: bold;
 }
 li{
   list-style: none;
   line-height: 30px;
 }
 #contact{
-  clear: both;
-  margin-top: 1%;
-  margin-left: 40%;
+  float:left;
+  margin-top: 15%;
+  margin-left: 45%;
   font-size: 1.4em;
 }
 #skills{
@@ -58,4 +70,13 @@ li{
   margin-left: -20%;
   color: white;
   text-align: center;
+}
+#tempLink{
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  background-color: rgba(223, 229, 241, 0.74);
+  height:100px;
+  width:50%;
+  float: left;
+  margin-left: 23%;
 }
